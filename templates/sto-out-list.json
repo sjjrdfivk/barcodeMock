@@ -1,0 +1,108 @@
+{
+  "ShippingOutOrder": [
+    {
+      "PurchasingDocumentNumber": "500003427314",
+      "Plant": "1300",
+      "Driver": "",
+      "SupplyingPlantInStockTransportOrder": "1300",
+      "ReceivingPlantInStockTransportOrder": null,
+      "Priority": 0,
+      "Progress": 10,
+      "NumberOfDiff": 2,
+      "Operator": null,
+      "StartTime": "07:07:00",
+      "EndTime": "11:07:00",
+      "Duration": null,
+      "Items": 0
+    },
+    {
+      "PurchasingDocumentNumber": "50000342713",
+      "Plant": "1200",
+      "Driver": "",
+      "SupplyingPlantInStockTransportOrder": "1200",
+      "ReceivingPlantInStockTransportOrder": null,
+      "Priority": 0,
+      "Progress": 10,
+      "NumberOfDiff": 2,
+      "Operator": null,
+      "StartTime": "07:07:00",
+      "EndTime": "11:07:00",
+      "Duration": null,
+      "Items": 0
+    }
+  ],
+  "PrepareOrder": [
+    {
+      "PurchasingDocumentNumber": "50000342732",
+      "Plant": "1300",
+      "Driver": "",
+      "SupplyingPlantInStockTransportOrder": "1300",
+      "ReceivingPlantInStockTransportOrder": null,
+      "Priority": 0,
+      "Progress": 10,
+      "NumberOfDiff": 2,
+      "Operator": null,
+      "StartTime": "07:07:00",
+      "EndTime": "11:07:00",
+      "Duration": null,
+      "Items": 0
+    },
+    {
+      "PurchasingDocumentNumber": "50000342711",
+      "Plant": "1200",
+      "Driver": "",
+      "SupplyingPlantInStockTransportOrder": "1200",
+      "ReceivingPlantInStockTransportOrder": null,
+      "Priority": 0,
+      "Progress": 10,
+      "NumberOfDiff": 2,
+      "Operator": null,
+      "StartTime": "07:07:00",
+      "EndTime": null,
+      "Duration": null,
+      "Items": 0
+    }
+  ],
+  "StoForShipper": [
+    {
+      "Header": {
+        "Truck": "SJ88",
+        "Driver": "Dio",
+        "ReceivingPlantInStockTransportOrder": "1400",
+        "StoTotal": 1
+      },
+      "ShippingOutOrder": [
+        {
+          "PurchasingDocumentNumber": "5000030115（TO 1400)",
+          "Plant": "1400",
+          "Driver": "SJ88 Dio",
+          "SupplyingPlantInStockTransportOrder": "string",
+          "ReceivingPlantInStockTransportOrder": "string",
+          "Priority": 7,
+          "Progress": 10,
+          "NumberOfDiff": 2,
+          "Operator": "",
+          "StartTime": "07:07:00",
+          "EndTime": "17:07:00",
+          "Duration": 0,
+          "Items": 3
+        },
+        {
+          "PurchasingDocumentNumber": "5000030115（TO 1401)",
+          "Plant": "1400",
+          "Driver": "SJ88 Dio",
+          "SupplyingPlantInStockTransportOrder": "string",
+          "ReceivingPlantInStockTransportOrder": "string",
+          "Priority": 7,
+          "Progress": 10,
+          "NumberOfDiff": 2,
+          "Operator": "",
+          "StartTime": "07:07:00",
+          "EndTime": null,
+          "Duration": 0,
+          "Items": 3
+        }
+      ]
+    }
+  ]
+}
